@@ -8,7 +8,7 @@ on:
         description: Release a specific branch of the core and wagons. Leave empty for intelligent defaults.
         required: false
   schedule:
-    - cron: 20 03 * * 1-5
+    - cron: 35 03 * * 1-5
       timezone: 'Europe/Berlin'
 
 jobs:
